@@ -24,13 +24,18 @@ void input() {
         cout << "data ke-" << (i + 1) << ": ";
         cin >> arr[i];
     }
-
+}
     void insertionSort() {
-        int i, n, j, temp;
-        int arr[40];
+        int i, j, temp;
+        
 
-        for (i = 1; i <= n - 1; 1++) {//step 1
+        for (i = 1; i <= n - 1; i++) {//step 1
             
+       
+
+      
+    
+        
         }
 
     }
@@ -50,14 +55,11 @@ void input() {
     int main()
     {
         input();
-        bubbleSortArray();
+        insertionSort();
         display();
         system("pause");
     }
 
-int main()
-{
-    std::cout << "Hello World!\n";
-}
+
 
 
